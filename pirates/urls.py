@@ -3,5 +3,5 @@ from pirates.views import ListaTesourosView
 
 
 urlpatterns = [
-    path('lista_tesouros/', ListaTesourosView.as_view()),
+    path('/', ListaTesourosView.as_view()),
 ]
